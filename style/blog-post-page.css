@@ -1,0 +1,56 @@
+@import "_generic.css";
+@import "_header.css";
+@import "_footer.css";
+
+html {
+  background-color: #dfe6e9;
+}
+
+section {
+  display: grid;
+  background-color: whitesmoke;
+  
+  margin: 4rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  grid-row: inherit;
+}
+
+.news-title {
+  text-align: center;
+  margin: 1rem;
+}
+
+article {
+  text-align: justify;
+  margin: 2rem;
+}
+.news-pictures{
+  text-align: center;
+  
+}
+
+.news-pictures--responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.content__underline {
+  text-decoration: underline;
+  color: #0984e3;
+  
+}
+
+.content__italic {
+  color:brown;
+  font-style: italic;
+}
+
+.content__bold {
+  font-weight: 600;
+}
+
+.content__quote {
+color: #d63031;
+}

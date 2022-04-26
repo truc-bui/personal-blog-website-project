@@ -1,0 +1,67 @@
+@import "_generic.css";
+@import "_button.css";
+@import "_footer.css";
+@import "_header.css";
+
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h2 {
+  letter-spacing: normal;
+  line-height: 2rem;
+  color: #2E3C40;
+  text-align: center;
+}
+
+h4 {
+  background-color: whitesmoke;
+}
+
+.containter {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-gap: 0.5rem;
+  margin: auto 10rem;  
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .containter {
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .containter {
+    margin: auto 1rem;
+  }
+}
+
+.containter-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  background-color: whitesmoke;
+}
+
+.container-box-image {
+  max-width: 80%;
+  display: block;
+  object-fit: cover;
+  padding : 0.5rem;
+  background-color: whitesmoke;
+  margin: 1rem auto;
+}
+
+.card-paragraph {
+  margin: 1.5rem;
+  background-color: whitesmoke;
+}
+

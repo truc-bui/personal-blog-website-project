@@ -1,0 +1,20 @@
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-nav-icon {
+  /* important to override library's default styles */
+  font-size: 2rem !important;
+  color: #2E3C40;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
